@@ -1,0 +1,16 @@
+<a ui-sref="home" class="ng-scope" href="/">Home</a>
+
+<span class="ng-scope">&lt;</span>
+<span class="ng-scope">Categories</span>
+
+<h3 class="ng-scope">Category List</h3>
+<div>
+	<ul>
+		<li ng-repeat="category in categoryList.items">						
+			<a ui-sref="items( {categoryId:{{category.short_name}}} )">({{category.short_name}})</a> {{ category.name }}
+		</li>
+	</ul>
+</div>
+
+
+
