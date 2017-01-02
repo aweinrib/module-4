@@ -34,7 +34,7 @@
       var categoryItems = [];
       var fullUrl = ItemPath + categoryShortName;
 	  
-	  console.log("Searching category - ", categoryShortName, " at ", fullUrl);
+	  // console.log("Searching category - ", categoryShortName, " at ", fullUrl);
 
       return $http({
         method: 'GET',
